@@ -1,0 +1,77 @@
+:root {
+    
+    --text: black;
+	--g: #3b5297;
+	--d: #1b366b;
+	--bg:#4a6676;
+	--box:#638aa2;
+	
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+    background-color: var(--base);
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background: linear-gradient(120deg, var(--g), var(--d)), var(--box);
+}
+
+.form-container {
+    font-size: 1.5rem;
+    color: var(--text);
+    background-color: var(--bg);
+    padding: 3rem;
+    margin: 6rem;
+    border-radius: 0.5rem;
+}
+
+.input-pair {
+    margin: 20px 0;
+}
+
+.input-pair input, .input-pair label {
+    margin: 10px 0;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container textarea,
+.form-container button {
+    box-sizing: border-box;
+    background-color: var(--box);
+    color: var(--text);
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--text);
+    border-radius: 4px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="number"]:focus,
+.form-container textarea:focus {
+    border-color: var(--green);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.form-container button {
+    background: linear-gradient(120deg, var(--g), var(--d));
+    color: var(--bg);
+    font-weight: bold;
+    cursor: pointer;
+}

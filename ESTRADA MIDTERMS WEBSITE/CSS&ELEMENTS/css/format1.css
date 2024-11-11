@@ -1,0 +1,114 @@
+:root {
+    --text: #0f1a2f;
+	--g: #3b5297;
+	--d: #1b366b;
+	
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100vw;
+    background-color: var(--base);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 65vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--main);
+}
+
+
+.bg1 {
+    background-image:url(../img/bg.png);
+    background-size: cover;
+	height: 600px;
+}
+
+h3.firsthead {
+
+    font-size: 2rem;
+    border-radius: 1.20rem;
+    color: var(--main);
+    text-transform: uppercase;
+    padding: 1.25rem 3rem;
+    background: linear-gradient(140deg, var(--g), var(--d));
+	filter: drop-shadow(1px 1px 50px #60adea);
+	
+}
+
+.content {
+    color: var(--text);
+    font-size: 1.5rem;
+    padding: 3rem;
+   background: linear-gradient(140deg, var(--g), var(--d));
+    text-align: justify;
+	filter: drop-shadow(1px 1px 50px #60adea);
+}
+
+.content h3 {
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #3669d4;
+  }
+  
+  a:visited {
+    color: #4a6676;
+  }
+  
+  a:hover {
+    color: #FBCEB1;
+  }
+  
+  a:active {
+    color: #4a6676;
+  }
+  
+.bg2 {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+	height:700px;
+	
+}
+
+div.secondhead {
+    font-size: 2rem;
+    border-radius: 1.25rem;
+    color: var(--main);
+    text-transform: uppercase;
+    padding: 1.25rem 3rem;
+    background: linear-gradient(140deg, var(--g), var(--d));
+    color: var(--text);
+	filter: drop-shadow(1px 1px 50px #60adea);
+	
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+   background: linear-gradient(140deg, var(--g), var(--d));
+    color: var(--text);
+    min-height: 100px;
+	filter: drop-shadow(1px 1px 50px #60adea);
+}

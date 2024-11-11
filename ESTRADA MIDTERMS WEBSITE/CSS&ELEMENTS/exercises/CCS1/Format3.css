@@ -1,0 +1,50 @@
+
+th {
+	float:left;
+	width:50px;
+	height:2px;
+	background-color:red;
+	padding:20px;
+	border:2px red solid;
+	margin:1px;
+	font-size:10px;	
+	color:white;
+	
+}
+table {
+	float:left;
+	padding:0px;
+	border:2px red solid;
+	margin:1px;
+	font-size:10px
+	
+			
+	
+}
+
+
+
+td {
+	float:left;
+	width:50px;
+	height:2px;
+	text-align: left;
+	padding:20px;
+	border:2px red solid;
+	margin:1px;
+	font-size:10px;
+	
+}
+.myCourse {
+	color: red;
+}
+P {
+	color: red;
+	}
+
+b{	color: blue;
+}
+
+strong{
+	color: green;
+}
